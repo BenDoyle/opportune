@@ -2,6 +2,10 @@
 
 Opportune is intended to abstract optimal decision making, by suggesting actions that maximize expected utility (or alternatively, minimize expected regret). Think for example multi-armed bandit algorithms. See http://en.wikipedia.org/wiki/Multi-armed_bandit or http://en.wikipedia.org/wiki/Optimal_design.
 
+== Installation
+
+gem install opportune
+
 == Terminology
 
 Opportunity:  The point where a decision is called for.  Opportunities exist in a context. They allow one or more actions, which can each result in one or more outcomes.
@@ -28,6 +32,5 @@ Regret:       The difference between the utility of the best possible outcome, a
 
 == Copyright
 
-Copyright (c) 2011 Ben Doyle. See LICENSE.txt for
-further details.
+Copyright (c) 2012 Ben Doyle. See LICENSE.txt for further details.
 
