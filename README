@@ -1,0 +1,33 @@
+== Overview
+
+Opportune is intended to abstract optimal decision making, by suggesting actions that maximize expected utility (or alternatively, minimize expected regret). Think for example multi-armed bandit algorithms. See http://en.wikipedia.org/wiki/Multi-armed_bandit or http://en.wikipedia.org/wiki/Optimal_design.
+
+== Terminology
+
+Opportunity:  The point where a decision is called for.  Opportunities exist in a context. They allow one or more actions, which can each result in one or more outcomes.
+
+Context:      Anything known at the point a decision must be made. Under the hood, these facts are assumed to influence the frequency of outcomes given actions.
+
+Actions:      The options available at the time the opportunity is presented.
+
+Outcomes:     The outcome of the action performed.
+
+Utility:      This is the abstract value associated with actions and outcomes. Actions usually have negative utility, outcomes can have positive or negative utility.
+
+Regret:       The difference between the utility of the best possible outcome, and the actual outcome is regret.
+
+== Contributing to opportune:
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Ben Doyle. See LICENSE.txt for
+further details.
+
