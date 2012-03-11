@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Ben Doyle"]
   s.email       = 'doyle.ben@gmail.com'
   s.files       = ["lib/opportune.rb"]
-  s.homepage    = 'https://github.com/BenDoyle/oportune'
+  s.homepage    = 'https://github.com/BenDoyle/opportune'
 end
