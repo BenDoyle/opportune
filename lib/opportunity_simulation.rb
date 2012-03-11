@@ -1,0 +1,3 @@
+class OpportunitySimulation
+  
+end
